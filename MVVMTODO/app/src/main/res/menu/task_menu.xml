@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/procurar"
+        android:icon="@drawable/ic_search"
+        android:title="Procurar"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:id="@+id/prioridade"
+        android:title="Oredenar prioridade"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/delet_all"
+        android:title="Deletar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom|collapseActionView"/>
+</menu>
